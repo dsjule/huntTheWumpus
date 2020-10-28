@@ -1,0 +1,46 @@
+body {
+    background-color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: silver;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+table {
+    margin: auto;
+}
+
+table,
+td,
+th {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background-color: rgb(95, 95, 95);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: silver;
+    display: block;
+    padding: 30px;
+    margin: 5px;
+    background-color: gray;
+}
+
+td:hover {
+    background-color: silver;
+}
+
+#container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
